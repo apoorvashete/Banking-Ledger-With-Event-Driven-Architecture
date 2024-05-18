@@ -35,6 +35,10 @@ Dependency Inversion Principle (DIP): High-level modules (like the TransactionSe
 
 e. DRY Principle: The event sourcing pattern itself helps enforce the DRY principle by ensuring that the state of the accounts is not stored or duplicated in multiple places. Instead, it relies on replaying the event history to reconstruct the current state. This avoids redundant representations of data and keeps the logic centralized in the event replayer and aggregator.
 
+Arictectural Diagram:
+
+![Architectural Diagram](https://github.com/apoorvashete/Banking-Ledger-with-Event-Driven-Architecture/assets/63460316/036afb9b-e8f6-4ee4-8f57-07e9a1e13725)
+
 ## Assumptions
 
 a. While designing this service, I have made the assumption that:
